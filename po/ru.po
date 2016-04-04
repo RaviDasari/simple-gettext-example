@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: partial/basic.html:11
+msgid "{{$count}} new message"
+msgid_plural "{{$count}} new messages"
+msgstr[0] "{{$count}} новое сообщение"
+msgstr[1] "{{$count}} новые сообщения"
+msgstr[2] "{{$count}} новые сообщения"
+
+#: partial/basic.html:10
+msgid "email address"
+msgstr "Адрес электронной почты"
+
+#: partial/basic.html:15
+msgctxt "female"
+msgid "Hello there, how are you feeling today?"
+msgstr "Привет мам, как ты себя чувствуешь сегодня?"
+
+#: partial/basic.html:14
+msgctxt "male"
+msgid "Hello there, how are you feeling today?"
+msgstr "Привет сэр, как вы себя чувствуете сегодня?"
+
+#: partial/basic.html:9
+msgid "Hello, my name is {{name}}"
+msgstr "Привет меня зовут {{name}}"
+
+#. Hey buddy! This is some sample text to showcase the angular gettext
+#: partial/basic.html:8
+msgid "Some plain text"
+msgstr "Некоторые текстовый"
+
+#. Dont u dare to trasnlate this! it is WIP.
+#: partial/basic.html:12
+msgid "Some untraslated plain text"
+msgstr ""
+
+#. DO NOT TRANSLATE THIS!
+#: partial/basic.html:29
+msgid "Trasnlated dynamically in code"
+msgstr ""

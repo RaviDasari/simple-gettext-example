@@ -1,0 +1,33 @@
+<div class="container" ng-controller="BasicTransaltionsController">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Basic usage </h3>
+      </div>
+      <div class="panel-body">
+        <ul class="list-group col-sm-8 col-md-6 col-md-offset-3 col-sm-offset-2">
+            <li class="list-group-item">Translating plain text: <label translate translate-comment="Hey buddy! This is some sample text to showcase the angular gettext">Some plain text</label></li>
+            <li class="list-group-item">Translation with angular: <label translate>Hello, my name is {{name}}</label></li>
+            <li class="list-group-item">Translating placeholder text: <input class="form-control" type="text" placeholder="{{'email address'|translate}}"> </li>
+            <li class="list-group-item">Translating plurals ( <input class="form-control number-input" type="text" ng-model="msgCount"> ): <label translate translate-n="msgCount" translate-plural="{{$count}} new messages">{{$count}} new message</label></li>
+            <li class="list-group-item">Untralsated text: <label translate translate-comment="Dont u dare to trasnlate this! it is WIP.">Some untraslated plain text</label></li>
+            <li class="list-group-item">Below two statements spells same in english but will changee based on conteext in Russian translation.</li>
+            <li class="list-group-item">Translation with context: <label translate translate-context="male">Hello there, how are you feeling today?</label></li>
+            <li class="list-group-item">Translation with context: <label translate translate-context="female">Hello there, how are you feeling today?</label></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">from Javascript </h3>
+      </div>
+      <div class="panel-body">
+        <ul class="list-group col-sm-8 col-md-6 col-md-offset-3 col-sm-offset-2">
+            <li class="list-group-item">Translating dynamic message: <label>{{dynamicMsg}}</label></li>
+            <li class="list-group-item">Translation with angular: <label>{{angularMsg}}</label></li>
+            <li class="list-group-item">Translating plurals ( <input class="form-control number-input" type="text" ng-model="msgCount" > ): <label >{{pluralStringMsg}}</label></li>
+            <li class="list-group-item">Adding translating dynamically: <label translate translate-comment="DO NOT TRANSLATE THIS!">Trasnlated dynamically in code</label></li>
+        </ul>
+      </div>
+    </div>
+</div>

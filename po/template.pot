@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+
+#: partial/basic.html:11
+msgid "{{$count}} new message"
+msgid_plural "{{$count}} new messages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: partial/basic.html:10
+msgid "email address"
+msgstr ""
+
+#: partial/basic.html:15
+msgctxt "female"
+msgid "Hello there, how are you feeling today?"
+msgstr ""
+
+#: partial/basic.html:14
+msgctxt "male"
+msgid "Hello there, how are you feeling today?"
+msgstr ""
+
+#: partial/basic.html:9
+msgid "Hello, my name is {{name}}"
+msgstr ""
+
+#. Hey buddy! This is some sample text to showcase the angular gettext
+#: partial/basic.html:8
+msgid "Some plain text"
+msgstr ""
+
+#. Dont u dare to trasnlate this! it is WIP.
+#: partial/basic.html:12
+msgid "Some untraslated plain text"
+msgstr ""
+
+#. DO NOT TRANSLATE THIS!
+#: partial/basic.html:29
+msgid "Trasnlated dynamically in code"
+msgstr ""
