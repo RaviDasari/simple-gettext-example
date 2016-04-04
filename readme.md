@@ -8,10 +8,10 @@ Full usage instructions can be found at [http://angular-gettext.rocketeer.be/](h
 
 Install node and grunt, grunt cli
 
-> npm install
-//install all dnode packages specified in package.json
+     > npm install
+     //install all dnode packages specified in package.json
 
-> grunt
-//this will run default grunt task
+     > grunt
+     //this will run default grunt task
 
 _If you have other helpful links to share, or find any of the links above no longer work, please [let me know]._
